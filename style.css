@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedorElementos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+}
+
+.elemento {
+  border: 1px solid #777;
+  width: 260px;
+}
+
+.imagen-wrap {
+  background-color: #8a8a8a; 
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-wrap img {
+  max-width: 100%;
+  height: auto;
+}
+
+.elemento button {
+  width: 100%;
+  padding: 6px 0;
+  border: 1px solid #777;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.elemento button:hover {
+  background-color: #e0e0e0;
+}

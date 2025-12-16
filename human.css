@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+#pantalla {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estados */
+.estado-inicial {
+  background-color: #eeeeee;
+}
+
+.estado-esperando {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.estado-rojo {
+  background-color: red;
+  color: white;
+}
+
+.estado-final {
+  background-color: #eeeeee;
+}
+
+.estado-fallo {
+  background-color: orange;
+  color: white;
+}
